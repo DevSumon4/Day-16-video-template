@@ -1,0 +1,227 @@
+img{
+    max-width: 100%;
+}
+
+
+
+.header-left img{
+    width: 200px;
+    height: auto;
+}
+
+.header-right ul {
+	text-align: right;
+	margin-bottom: 0;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding: 0 36px;
+	font-size: 18px;
+	border-right: 1px solid #ddd;
+	line-height: 69px;
+	transition: .4s;
+}
+
+
+
+.header-right ul li a:hover{
+    background: #2980b9;
+}
+
+
+
+/* hover part */
+
+
+.header-right ul li ul{
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: top center;
+}
+
+.header-right ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform:scaleY(1)
+    
+}
+
+
+
+
+/* bannar section */
+
+
+
+.banner {
+    background-image: url(tutorial-computer-900x288.jpg);
+    background-position: top center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 230px 0px;
+}
+.banner-caption h2 {
+	background: rgba(0,0,0, .4);
+	color: #fff;
+	display: inline-block;
+	padding: 5px 29px;
+	font-size: 25px;
+	border-radius: 5px;
+}
+.banner-caption h3 {
+	color: #fff;
+	font-size: 35px;
+	background: rgba(53, 151, 221, 0.5);
+	max-width: 457px;
+	padding: 11px 20px;
+	margin-left: 29%;
+	border-radius: 10px;
+	margin-top: 8px;
+}
+
+
+/* banner section */
+
+
+.about_section{
+	background: rgba(244, 243, 243, 0.4);
+}
+
+
+
+
+/* Service section */
+
+/* 
+.service-item {
+	box-sizing: border-box;
+	margin-left: 6%;
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0, .5);
+} */
+.service-item span {
+	background: #4e85cf;
+	height: 50px;
+	width: 50px;
+	display: block;
+	font-size: 26px;
+	color: #fff;
+	border-radius: 20px 0 20px 0;
+	margin: 15px auto;
+	line-height: 50px;
+}
+.service-item p {
+	color: #594c4c;
+    margin-bottom: 10px;
+}
+.service-item h3 {
+	font-size: 23px;
+	margin-bottom: 20px;
+}
+.service-item {
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0, .4);
+}
+
+
+
+
+/* item section */
+
+
+.item_heading{}
+.item_heading h1 {
+	text-align: center;
+	font-size: 61px;
+	background: rgba(244, 243, 243, 0.4);
+	margin-bottom: 40px;
+}
+
+.item-left h1 {
+	color: gray;
+	font-size: 50px;
+}
+.item-left h3{
+
+}
+
+
+
+.item-right h3 {
+	padding: 8px;
+	font-size: 20px;
+	margin-left: 100px;
+}
+.item-right h3 span {
+	color: blue;
+}
+
+
+/* blog section */
+
+.blog_section{
+    margin-top: 15px;
+}
+
+
+/* blog sectrion */
+
+
+.blog_left {
+	margin-bottom: 10px;
+}
+.blog_left p{
+	font-size: 18px;
+}
+.blog-container-right h2 {
+	font-size: 30px;
+	color: rgb(0, 0, 0);
+	margin-bottom: 20px;
+	margin-left: 33px;
+}
+.blog-container-right ul{
+    list-style-type: none;
+}
+.blog-container-right ul li {
+	font-size: 20px;
+	border: 1px solid #ddd;
+	padding: 8px;
+	background: #fafafa;
+	margin-bottom: 7px;
+}
+
+
+
+
+/* footer */
+
+.footer {
+	background: rgb(13, 13, 26);
+	padding: 15px 0;
+
+}
+
+
+
+.footer-left p {
+	font-size: 20px;
+	color: #fff;
+}
+.social-menu{}
+.social-menu{
+    text-align: right;
+    margin-bottom: 0;
+}
+.social-menu li{
+    display: inline-block;
+}
+.social-menu li a {
+	padding: 5px;
+	color: #fff;
+	font-size: 20px;
+}
